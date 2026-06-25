@@ -8,19 +8,24 @@ Supports validating emails, phone numbers (E.164), URLs, ISO 8601 dates, UUIDs, 
 
 ## Installation
 
-```bash
-npm install
-```
+````bash
+# Clone the repository
+git clone https://github.com/TallamGilbert/input-validation-engine
+cd validation-library
 
-No external dependencies required. Written in TypeScript, compiles to plain JavaScript.
+# Install dependencies
+npm install
+
+```markdown
+**Requirements:** Node.js 18+ and TypeScript
 
 ## Running Tests
 
 ```bash
 npm test
-```
+````
 
-Runs the full test suite — 82+ tests covering all validation rules, the composition engine, and coercion behavior.
+Runs the full test suite , 82+ tests covering all validation rules, the composition engine, and coercion behavior.
 
 ---
 
